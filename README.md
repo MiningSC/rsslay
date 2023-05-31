@@ -33,6 +33,7 @@ Checkout the [wiki entry](https://github.com/piraces/rsslay/wiki/API) for furthe
 Actually `rsslay` makes usage of a method named `AttemptReplayEvents` which is made to send the events to other relays of confidence to attempt to make the events and the profile more reachable (they are just mirror relays)...
 
 Currently used relays:
+- wss://nostr.mining.sc
 - wss://relay.nostrgraph.net
 - wss://e.nos.lol
 - wss://nos.lol
@@ -51,6 +52,7 @@ Currently `rsslay` is doing the following with Nitter feeds:
 - Upgrading to `https` all instances that may be misconfigured.
 - Format some responses and retweets in a more "user-friendly" way.
 - As there are many instances available out there, if one is unreachable at the moment of parsing, a pool of instances is used (configurable):
+  - [nitter.nostr.sc](https://nitter.nostr.sc)
   - [birdsite.xanny.family](https://birdsite.xanny.family/)
   - [notabird.site](https://notabird.site/)
   - [nitter.moomoo.me](https://nitter.moomoo.me/)
